@@ -1,0 +1,76 @@
+//
+// Prefix header for all source files of the 'ParkBusiness' target in the 'ParkBusiness' project
+//
+
+#import <Availability.h>
+
+#define SELECTED_VIEW_CONTROLLER_TAG 98456345
+#define KTabBarHeight 49.0
+#define KNavigationBarHeight 44.0
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <QuartzCore/QuartzCore.h>
+#import "PBIndustryData.h"
+#import "PBUserModel.h"
+#import "PBAlertView.h"
+#import "PBKbnMasterModel.h"
+#import "PBNavigationController.h"
+
+
+#import "Define.h"
+#endif
+#define isPhone5() ([[UIScreen mainScreen] bounds].size.height == 568)
+//www.softechallenger.com
+#define HOST @"http://www.ifdz.net/"
+//#define HOST @"http://www.softechallenger.com/investment/"
+//#define HOST @"http://192.168.0.22/investment/"
+#define UNION @"http://192.168.0.22/FiscaUnion/"
+#define PARUKENO 1
+//PARUKENO
+//USERNO
+#define RB_SAFE_RELEASE(x) [x release], x = nil
+#define USERNO [NSString stringWithFormat:@"%d",[PBUserModel getUserId]]
+#define SCREENSIZE [UIApplication sharedApplication].keyWindow.frame
+#define SCREENHEIGHT [UIApplication sharedApplication].keyWindow.frame.size.height
+#define SCREENWIDTH [UIApplication sharedApplication].keyWindow.frame.size.width
+#define RATIO 768/320
+#define STANDARD 10.454546
+#define isPad() \
+([[UIDevice currentDevice] respondsToSelector:@selector(userInterfaceIdiom)] && \
+[[UIDevice currentDevice] userInterfaceIdiom]==UIUserInterfaceIdiomPad)
+#define VERSION [[[NSBundle mainBundle] infoDictionary] objectForKey:(NSString*)kCFBundleVersionKey]
+#define PadContentFontSize 16
+#define PadContentFontSmallSize 14
+
+#define ContentFontSize 15
+#define ContentFontSmallSize 13
+
+#define ELSEPROJECTINFO @"projectstyle"
+
+
+
+#define IMAGE_NAME @"icon"
+#define IMAGE_EXT @"png"
+
+#define CONTENT @"融商APP是致力于为金融机构及中小企业提供投融资及理财服务的移动智能平台。平台中汇聚了几十家各类金融机构、数百位金融专业人士，在线及时与企业家进行沟通。以下是融商APP下载安装URL。iOS版：http://www.ifdz.net/prottypefin Android版：http://www.ifdz.net/downloads/prottypefin.apk"
+#define SHARE_URL @"http://www.ifdz.net"
+
+
+
+
+//评论URL
+#define REMARKINFO [NSString stringWithFormat:@"%@admin/index/addremarkinfo", HOST]
+//提问URL
+#define QUESTIONINFO [NSString stringWithFormat:@"%@admin/index/addquestioninfo", HOST]
+//收藏URL
+#define FAVOURITES [NSString stringWithFormat:@"%@admin/index/addmyfavourites", HOST]
+//加关注的url
+#define kATTENTIONURLSTRING [NSString stringWithFormat:@"%@admin/index/insertattention", HOST]
+
+//*******************常用的传参宏******************//
+#define STRSIZE(x) [x sizeWithFont:[UIFont systemFontOfSize:15] constrainedToSize:CGSizeMake(isPad()?480:150, 1000) lineBreakMode:NSLineBreakByWordWrapping];

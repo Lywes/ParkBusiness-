@@ -1,0 +1,50 @@
+/* 
+  Localizable.strings
+  ParkBusiness
+
+  Created by China on 13-9-12.
+  Copyright (c) 2013年 wangzhigang. All rights reserved.
+*/
+
+nav_btn_sc = "shoucang";
+nav_btn_pl = "pinglun";
+nav_btn_qx = "quxiao";
+nav_btn_tj = "tijiao";
+nav_btn_wc = "wancheng";
+nav_btn_zj = "zhuijia";
+
+
+/*     activity  */
+WAITING  = "waiting⋯⋯";
+
+/*     xib       */
+PBRightVC_        = "PBRightVC.xib(English)";
+/**** PBLeftVC ****/
+Left_mainTable_RS               = "rongshang";
+Left_mainTable_RZXQ             = "rongzixunqiu";
+Left_mainTable_LCXQ             = "licaixuqiu";
+Left_mainTable_JRCS             = "jinrongchaoshi";
+Left_mainTable_QYGQ             = "qiyegongqiu";
+Left_mainTable_HYZC             = "huiyuanzhichuan";
+/**** PBFinancingNews ****/
+Left_mainTable_JR               = "jinrong";
+Left_mainTable_LC               = "licai";
+Left_mainTable_JGFB               = "jingoufabu";
+Left_mainTable_JRAL               = "jinronganli";
+Left_mainTable_SXY               = "shangxueyuan";
+/**** PBMyFinanceNeedsList ****/
+MyFinanceNeedsList_WYRZ          = "woyaorongzi"; 
+
+/**** PBMyFinanceNeedsList ****/
+PBMyManageMoneyNeedsList_WYLC   = "woyaolicai";
+
+/**** PBFinancalProductsController ****/
+PBFinancalProductsController_sscp   = "sousuochanpin";
+
+
+/**** PBIndustryOpportunityList ****/
+PBIndustryOpportunityList_wyfb ="woyaofabu";
+
+
+
+

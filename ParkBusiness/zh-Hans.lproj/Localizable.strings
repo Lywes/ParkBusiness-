@@ -1,0 +1,78 @@
+/* 
+  Localizable.strings
+  ParkBusiness
+
+  Created by China on 13-9-12.
+  Copyright (c) 2013年 wangzhigang. All rights reserved.
+*/
+nav_btn_sc = "收藏";
+nav_btn_pl = "评论";
+nav_btn_qx = "取消";
+nav_btn_tj = "提交";
+nav_btn_wc = "完成";
+nav_btn_zj = "追加";
+nav_btn_tw = "提问";
+_btn_chakan = "查看";
+
+
+/*    view title       */
+_title_alxxxx = "案例详细信息";
+_title_cpfwxxxx = "产品/服务详细信息";
+_title_rzal = "融资案例";
+_title_lcxqxx = "理财需求详细";
+
+
+
+
+/* tableview cell text */
+_tb_gsgk = "公司概况";
+_tb_alxq = "案例详情";
+_tb_alxx = "案例详细";
+_tb_jrcplj = "金融产品链接";
+_tb_jrallj = "金融案例链接";
+_tb_xxjs = "详细介绍";
+_tb_zxdh = "咨询电话";
+_tb_gmsm = "购买说明";
+_tb_wdpf = "我的评分：";
+_tb_lclx = "理财类型";
+_tb_kyzj = "可用资金";
+_tb_qwnhbl = "期望年回报率";
+_tb_sjzq = "时间周期";
+
+/*     activity  */
+WAITING  = "请稍等⋯⋯";
+
+/*     xib       */
+PBRightVC_        = "PBRightVC.xib(Chinese)";
+
+
+
+/**** PBLeftVC ****/
+Left_mainTable_RS               = "融商资讯";
+Left_mainTable_RZXQ             = "融资需求";
+Left_mainTable_LCXQ             = "理财需求";
+Left_mainTable_JRCS             = "金融超市";
+Left_mainTable_QYGQ             = "企业供求";
+Left_mainTable_HYZC             = "会员之窗";
+
+
+/**** PBFinancingNews ****/
+Left_mainTable_JR               = "金融";
+Left_mainTable_LC               = "理财";
+Left_mainTable_JGFB               = "机构发布";
+Left_mainTable_JRAL               = "金融案例";
+Left_mainTable_SXY               = "商学院";
+
+
+/**** PBMyFinanceNeedsList ****/
+MyFinanceNeedsList_WYRZ          = "我要融资";
+
+/**** PBMyFinanceNeedsList ****/
+PBMyManageMoneyNeedsList_WYLC   = "我要理财";
+
+/**** PBFinancalProductsController ****/
+PBFinancalProductsController_sscp   = "搜索产品";
+
+
+/**** PBIndustryOpportunityList ****/
+PBIndustryOpportunityList_wyfb ="我要发布";

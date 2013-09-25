@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+
+
+    
+	<dict>
+		<key>regdeviceurl</key>
+		<string>http://www.5asys.com/regdevice</string>
+		<key>chgaliasurl</key>
+		<string>http://www.5asys.com/chgalias</string>
+		<key>writeurl</key>
+		<string>http://www.5asys.com/write</string>
+		<key>searchinfourl</key>
+		<string>http://www.5asys.com/searchinfo</string>
+		<key>validateurl</key>
+		<string>http://www.5asys.com/validate</string>
+		<key>singlemessageurl</key>
+		<string>http://www.5asys.com/singlemessage</string>
+		<key>groupmessageurl</key>
+		<string>http://www.5asys.com/groupmessage</string>
+		<key>invitegroupurl</key>
+		<string>http://www.5asys.com/invitegroup</string>
+		<key>answergroupurl</key>
+		<string>http://www.5asys.com/answergroup</string>
+		<key>invitefreindurl</key>
+		<string>http://www.5asys.com/invitefreind</string>
+		<key>answerfreindurl</key>
+		<string>http://www.5asys.com/answerfreind</string>
+		<key>addgroupurl</key>
+		<string>http://www.5asys.com/addgroup</string>
+		<key>searchfriendurl</key>
+		<string>http://www.5asys.com/searchfriend</string>
+		<key>quitgroupurl</key>
+		<string>http://www.5asys.com/quitgroup</string>
+
+	</dict>
+
+</array>
+</plist>
